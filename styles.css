@@ -1,0 +1,25 @@
+  h1 {
+    color:AliceBlue;
+    font-family:Calibri;
+  }
+
+  blockquote {
+    color:AliceBlue;
+    font-family:Calibri;
+  }
+
+  a {
+    color:AliceBlue;
+    font-family:Calibri;
+  }
+                
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+  }
+
+  body {
+    background-color:#28282b;
+  }
