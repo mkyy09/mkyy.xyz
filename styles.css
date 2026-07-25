@@ -2,7 +2,10 @@ body {
   background-color: #28282b;
   color: AliceBlue;
   font-family: Calibri;
-  text-decoration: none;
+}
+
+a {
+    text-decoration: none;
 }
 
 .center {
