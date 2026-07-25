@@ -28,4 +28,5 @@ a {
 footer {
   position: fixed;
   bottom: 0;
+  align-items: center;
 }
