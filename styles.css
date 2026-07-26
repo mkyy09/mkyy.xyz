@@ -33,7 +33,7 @@ a {
 
 .vertical {
   border-left: 6px AliceBlue;
-  height: 500px;
+  height: 750px;
   position: absolute;
   left: 50%;
   margin-left: -3px;
@@ -50,10 +50,13 @@ hr {
   cursor: pointer;
   text-decoration: none;
   border: none;
+  background-color: transparent;
 }
 
 .menubutton {
   text-align: right;
+  outline: none;
+  color: AliceBlue;
 }
 .menubutton:hover {
   border: 2px solid AliceBlue;
