@@ -57,6 +57,7 @@ hr {
   text-align: right;
   outline: none;
   color: AliceBlue;
+  width:200px
 }
 .menubutton:hover {
-  border: 2px solid AliceBlue;
+  font-weight: bold;
