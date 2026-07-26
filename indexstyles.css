@@ -24,13 +24,6 @@ a {
   text-align: center;
 }
 
-.header {
-  position: fixed;
-  right: 0;
-  width: 100%;
-  top: 0;
-}
-
 .vertical {
   border-left: 6px AliceBlue;
   height: 750px;
@@ -45,19 +38,14 @@ hr {
     margin:0 auto;
 }
 
-.button {
-  transition-duration: 0.4s;
-  cursor: pointer;
+.header {
+  overflow: hidden;
+  float: right;
+  display: block;
+  text-align: right;
   text-decoration: none;
-  border: none;
-  background-color: transparent;
 }
 
-.menubutton {
-  text-align: right;
-  outline: none;
-  color: AliceBlue;
-  width:200px
-}
 .menubutton:hover {
   font-weight: bold;
+  background-color: #282830;
