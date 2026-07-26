@@ -38,15 +38,26 @@ hr {
     margin:0 auto;
 }
 
-.header {
+/*menu shit*/
+
+ul {
   list-style-type: none;
+  margin: 0;
+  padding: 0;
   overflow: hidden;
+}
+
+ul li {
   float: right;
+}
+
+ul li a {
   display: block;
-  text-align: right;
+  text-align: center;
+  padding: 14px 16px;
   text-decoration: none;
 }
 
-.menubutton:hover {
-  font-weight: bold;
+ul li a:hover {
   background-color: #282830;
+}
