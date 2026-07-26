@@ -59,5 +59,7 @@ ul li a {
 }
 
 ul li a:hover {
+  font-weight: bold;
   background-color: #282830;
+  color: #FFFFFF
 }
