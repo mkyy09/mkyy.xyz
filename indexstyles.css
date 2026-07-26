@@ -10,10 +10,11 @@ a {
 }
 
 .center {
-  display: flex;
-  justify-content: center;
   align-items: center;
-  height: 100%;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  max-width: 175px;
 }
 
 .footer {
