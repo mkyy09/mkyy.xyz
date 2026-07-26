@@ -44,3 +44,16 @@ hr {
     width:25%;
     margin:0 auto;
 }
+
+.button {
+  transition-duration: 0.4s;
+  cursor: pointer;
+  text-decoration: none;
+  border: none;
+}
+
+.menubutton {
+  text-align: right;
+}
+.menubutton:hover {
+  border: 2px solid AliceBlue;
