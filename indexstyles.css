@@ -39,6 +39,7 @@ hr {
 }
 
 .header {
+  list-style-type: none;
   overflow: hidden;
   float: right;
   display: block;
