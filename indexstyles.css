@@ -13,9 +13,7 @@ a {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: auto;
-  width: 85%;
-  padding: 10px;
+  height: 100%;
 }
 
 .footer {
