@@ -1,45 +1,4 @@
-body {
-  background-color: #28282b;
-  color: AliceBlue;
-  font-family: Calibri;
-}
-
-a {
-  color: AliceBlue;
-  text-decoration: none;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-}
-
-.footer {
-  position: fixed;
-  left: 0;
-  width: 100%;
-  bottom: 0;
-  text-align: center;
-}
-
-.vertical {
-  border-left: 6px AliceBlue;
-  height: 750px;
-  position: absolute;
-  left: 50%;
-  margin-left: -3px;
-  top: 0;
-}
-
-hr {
-    width:25%;
-    margin:0 auto;
-}
-
 /*menu shit*/
-
 ul {
   list-style-type: none;
   margin: 0;
@@ -62,4 +21,26 @@ ul li a:hover {
   font-weight: bold;
   background-color: #282830;
   color: #FFFFFF
+}
+
+/* */
+body {
+  background-color: #28282b;
+  color: AliceBlue;
+  font-family: Calibri;
+}
+
+.footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+}
+
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
 }
