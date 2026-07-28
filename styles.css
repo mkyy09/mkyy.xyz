@@ -60,3 +60,13 @@ body {
 .small {
   font-size:1vw;
 }
+
+hr {
+    width:25%;
+    margin:0 auto;
+}
+
+a {
+  color: AliceBlue;
+  text-decoration: none;
+}
