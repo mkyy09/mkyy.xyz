@@ -44,3 +44,11 @@ body {
   align-items: center;
   height: 100%;
 }
+
+.big {
+  font-size:5vw;
+}
+
+.small {
+  font-size:1vw;
+}
