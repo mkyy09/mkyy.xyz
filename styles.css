@@ -30,15 +30,9 @@ body {
   font-family: Calibri;
 }
 
-.footer {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-}
 
-.foot {
+
+.footer {
   position: absolute;
   left:0;
   width: 100%;
@@ -53,8 +47,21 @@ body {
   height: 100%;
 }
 
+.center-two { /**thanks for this, ray**/
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width: 100%;
+}
+
 .big {
   font-size:5vw;
+}
+
+.medium {
+  font-size:2vw;
 }
 
 .small {
@@ -69,4 +76,13 @@ hr {
 a {
   color: AliceBlue;
   text-decoration: none;
+}
+
+#sky-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
 }
