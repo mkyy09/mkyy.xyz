@@ -30,15 +30,9 @@ body {
   font-family: Calibri;
 }
 
-.footer {
-  position: fixed;
-  width: 100%;
-  left: 0;
-  bottom: 0;
-  text-align: center;
-}
 
-.foot {
+
+.footer {
   position: absolute;
   left:0;
   width: 100%;
@@ -66,6 +60,10 @@ body {
   font-size:5vw;
 }
 
+.medium {
+  font-size:2vw;
+}
+
 .small {
   font-size:1vw;
 }
@@ -78,4 +76,11 @@ hr {
 a {
   color: AliceBlue;
   text-decoration: none;
+}
+
+body.ohno {
+	background-image: url('/media/galaxy.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
