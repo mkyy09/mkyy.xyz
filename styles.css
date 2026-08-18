@@ -32,7 +32,7 @@ body {
 
 
 
-.footer {
+footer {
   position: absolute;
   left:0;
   width: 100%;
@@ -78,9 +78,11 @@ a {
   text-decoration: none;
 }
 
-body.ohno {
-	background-image: url('/media/galaxy.jpg');
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
+#sky-bg {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+  z-index: -1;
 }
