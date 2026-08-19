@@ -34,6 +34,16 @@
     </head>
     
     <body scroll="no" style="overflow: hidden">
+
+        <video autoplay muted loop id="sky-bg"> <!-- VIDEO START -->
+            <source src="media/starsky.mp4" type="video/mp4">
+            Your browser does not support HTML5 video.
+        </video>
+        <script>
+            let vid = document.getElementById("sky-bg");
+            vid.playbackRate=0.5;
+        </script> <!-- VIDEO END-->
+
         <div> <!-- HEADER START -->
             <ul>
                 <li><a href="portfolio.html">Portfolio</a></li>
@@ -51,7 +61,7 @@
             <a href="mailto:mikey@mkyy.xyz"><u><b>email me.</b></u> i'll <i>probably</i> respond</a>
             <br/><p></p>
             <p></p><p></p> 
-            <p style="color:gray">&copy; 2025–<script>document.write(new Date().getFullYear())</script> @.mkyy09, All Rights Reserved.</p>
+            <p style="color:gray">&copy; <script>document.write(new Date().getFullYear());</script> @.mkyy09, All Rights Reserved.</p>
         </div> <!-- FOOTER END -->
         
     </body>
