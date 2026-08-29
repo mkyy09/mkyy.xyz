@@ -94,3 +94,9 @@ a {
   right: 25;
   bottom: 25;
 }
+
+.badge-base {
+  position:sticky;
+  bottom: 0;
+  right:0;
+}
