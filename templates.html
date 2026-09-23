@@ -27,9 +27,19 @@
     </div> <!-- FOOTER END -->
 
     <div class="footer"> <!-- DIAGNOSTIC FOOTER START -->
-      <hr/><br/>
-      <a href="mailto:mikey@mkyy.xyz"><u><b>email me.</b></u> i'll <i>probably</i> respond</a>
-      <br/><p></p>
-      <p></p><p></p> 
-      <p style="color:gray">&copy; <script>document.write(new Date().getFullYear());</script> @.mkyy09, All Rights Reserved. | Last Updated: <script>document.write(document.lastModified);</script> </p>
+        <hr/><br/>
+        <a href="mailto:mikey@mkyy.xyz"><u><b>email me.</b></u> i'll <i>probably</i> respond</a>
+        <br/><p></p>
+        <p></p><p></p> 
+        <p style="color:gray">&copy; <script>document.write(new Date().getFullYear());</script> @.mkyy09, All Rights Reserved. | Last Updated: <script>document.write(new Date(document.lastModified).toLocaleDateString('en-GB'));</script> </p>
     </div> <!-- DIAGNOSTIC FOOTER END --> 
+
+    <div class="spotify-widget"> <!-- SPOTIFY/DISCORD WIDGET START -->
+      <a href="https://discord.com/users/571733600882655243"><img width="400" class="spwg" target="_blank"src="https://lanyard.cnrad.dev/api/571733600882655243?theme=dark&animatedDecoration=false&hideDecoration=true&showDisplayName=true&hideTag=true&hideDiscrim=true&idleMessage=Probably%20making%20another%20stupid%20decision.%20Or%20sleeping.%20Honestly%2C%20I%20could%20probably%20do%20both%20at%20the%20same%20time%20%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F&time=?" /></a>
+    </div>
+    <script>
+        function refSpot() {    
+            document.querySelector(".spotify-widget").querySelector(".spwg").src = "https://lanyard.cnrad.dev/api/571733600882655243?theme=dark&animatedDecoration=false&hideTimestamp=true&hideDecoration=true&showDisplayName=true&hideTag=true&hideDiscrim=true&idleMessage=Probably%20making%20another%20stupid%20decision.%20Or%20sleeping.%20Honestly%2C%20I%20could%20probably%20do%20both%20at%20the%20same%20time%20%F0%9F%A4%B7%E2%80%8D%E2%99%82%EF%B8%8F&time=" + new Date().getTime();
+        }
+        setInterval(refSpot, 15000);
+    </script> <!-- SPOTIFY/DISCORD WIDGET END-->
