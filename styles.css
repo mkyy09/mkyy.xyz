@@ -1,6 +1,6 @@
 body {
-  background-color: #28282b;
-  color: AliceBlue;
+  background-color: #2E0F35;
+  color: #FF7FEC;
   font-family: Calibri;
 }
 
@@ -44,6 +44,6 @@ hr {
 }
 
 a {
-  color: AliceBlue;
+  color: #FF7FEC;
   text-decoration: none;
 }
