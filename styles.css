@@ -4,29 +4,12 @@ body {
   font-family: Calibri;
 }
 
-#sky-bg {
-  position: absolute;
-  right: 0;
-  bottom: 0;
-  min-width: 100%; 
-  min-height: 100%;
-  object-fit: cover;
-  z-index: -1;
-}
-
 .footer {
   position: absolute;
   left:0;
   width: 100%;
   bottom: 0;
   text-align: center;
-}
-
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
 }
 
 .center-two { /**thanks for this, ray**/
@@ -38,12 +21,18 @@ body {
     width: 100%;
 }
 
-hr {
-    width:750px;
-    margin:0 auto;
-}
-
 a {
   color: #FF7FEC;
   text-decoration: none;
+}
+
+/**fonts**/
+.madimi {
+  font-family: "Madimi One", sans-serif;
+}
+.nothing {
+  font-family: "Nothing You Could Do", cursive;
+}
+.playwrite {
+  font-family: "Playwrite NZ Basic", cursive;
 }
