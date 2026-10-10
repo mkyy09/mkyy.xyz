@@ -1,7 +1,7 @@
 body {
   background-color: #2E0F35;
-  color: #FF7FEC;
-  font-family: Calibri;
+  color: #FFCCCC;
+  text-shadow: rgba(255,127,236,0.86) 0px 0px 25px;
 }
 
 .footer {
@@ -22,7 +22,7 @@ body {
 }
 
 a {
-  color: #FF7FEC;
+  color: #FFCCCC;
   text-decoration: none;
 }
 
