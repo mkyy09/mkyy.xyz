@@ -1,0 +1,35 @@
+<html lang="en-GB">
+  <head>
+        <title>very professional website™</title>
+        <link rel="icon" type="image/x-icon" href="/assets/favicon.ico">
+        <link rel="stylesheet" href="styles.css">
+
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+        <link href="https://fonts.googleapis.com/css2?family=Madimi+One&amp;family=Fuzzy+Bubbles&amp;family=Playwrite+NZ+Basic&amp;display=swap" rel="stylesheet">
+  
+        <meta charset="UTF-8">
+        <meta name="description" content="trying to see all my info. okay stalker.">
+        <meta name="author" content="@mkyy09">
+        <meta name="viewport" content="width=device-width, initial-scale=0.75">
+  </head>
+
+    <body scroll="no" style="overflow: hidden">
+
+            <center>
+              <div class="center-two">
+                <h1 class="madimi">merry hannukah</h1>
+                <iframe width="600px" src="https://docs.google.com/document/d/e/2PACX-1vSesgKpf5WMbar5smV5C9c8bkUD-gnBOy1DsyUaHk-oQhmT2QcEU8NL7DNpB8f5FeTSgfCezDaa3DMU/pub?embedded=true" height="750vh"></iframe>
+              </div>
+            </center>
+        
+
+        <div class="footer">
+            <center>
+                <a class="fuzzy" href="mailto:mikey@mkyy.xyz"><u><b>email me.</b></u> i <i>might</i> respond</a>
+                <br>
+                <p class="fuzzy">© <script>document.write(new Date().getFullYear());</script>2026 @.mkyy09, All Rights Reserved. | Last Updated: <script>document.write(new Date(document.lastModified).toLocaleDateString('en-GB'));</script>11/10/2026</p>
+            </center>
+        </div>
+  </body>
+</html>
