@@ -1,4 +1,6 @@
 body {
+  height: 100%;
+  overflow-y: hidden;
   background-image: linear-gradient(to bottom right, #3d1446 0%, #150342 100%);
   color: #FFCCCC;
   text-shadow: rgba(255,127,236,0.86) 0px 0px 25px;
